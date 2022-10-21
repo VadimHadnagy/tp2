@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="./assets/css/style3.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <nav>
+            <ul>
+                <i class="fa-brands fa-phoenix-framework fa-2xl"></i>
+                <li><a href="index.html">Pheonix</a></li>
+                <li><a href="index2.html" class="opacity-average">Choisir une destination</a></li>
+                <li><a href="#" class="opacity-quart">Payer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="./assets/img/maurice.jpg" alt="" class="imgmaurice">
+        <div class="order">
+            <div class="container-info">
+                <img id="imgvoyage" src="" alt="">
+                <h2 id="voyagename"></h2>
+                <div class="container-p">
+                    <p id="price"></p>
+                </div>
+            </div>
+            <div class="container-form">
+                <div class="title">
+                    <h2>Je complète mes information de réservation </h2>
+                    <i class="fa-brands fa-phoenix-framework fa-2xl"></i>
+                </div>
+                    <input class="input-mail" id="mail" type="email" placeholder="Email de confirmation" pattern=".+@globex\.com" size="30" required    >
+                    <input class="input-manyweek" type="number" placeholder="Je pars combien de semaines ?" id="manyweek">
+                    <input class="input-manypeople" type="number" placeholder="Nombre de vacanciers" id="manypeople">
+                    <div class="container-btn">
+                    <a href="" class="valid" id="btn"><h3>Confirmer ma réservation</h3></a>
+                    </div>
+            </div>
+        </div>
+        <div class="sliderigm">
+                <div class="img">
+                    <a  href="index3.html?id=boucanier"><img class="imghw" src="./assets/img/caraibes_martinique_boucaniers.jpg" alt=""></a>
+                </div>
+                <div class="img">
+                    <a  href="index3.html?id=kamarina"><img class="imghw" src="./assets/img/sicile_kamarina.jpg" alt=""></a>
+                </div>
+                <div class="img">
+                    <a  href="index3.html?id=finohlu"><img class="imghw" src="./assets/img/maldives_fino.jpg" alt=""></a>
+                </div>
+                <div class="img">
+                    <a  href="index3.html?id=albion"><img class="imghw" src="./assets/img/maurice_albion.jpg" alt=""></a>
+                </div>
+                <div class="img">
+                    <a  href="index3.html?id=kani"><img class="imghw" src="./assets/img/maldives_kani.jpg" alt=""></a>
+                </div>
+                <div class="img">
+                    <a  href="index3.html?id=greogolimano"><img class="imghw" src="./assets/img/grece_gregolimano.jpg" alt=""></a>
+                </div>
+        </div>
+    </main>
+        <footer>
+            <i class="fa-solid fa-umbrella-beach"> Vos vacances de reve ...</i>
+            <i class="fa-solid fa-sun"> Plage ...</i>
+            <i class="fa-solid fa-city"> Urbaine ...</i>
+            <i class="fa-brands fa-docker"> Croisiere ...</i>
+            <i class="fa-solid fa-image"> Montagne ...</i>
+            <i class="fa-solid fa-euro-sign"> A prix tout doux ...</i>
+            <i class="fa-solid fa-umbrella-beach"></i>
+        </footer>
+</div>
+
+<script src="./assets/js/index3.js"></script>
+<script src="https://kit.fontawesome.com/428ecd0230.js" crossorigin="anonymous"></script>
+</body>
+</html>
